@@ -1,0 +1,99 @@
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 285 55"
+   version="1.1"
+   id="svg6"
+   sodipodi:docname="finalbottled1.svg"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)">
+  <metadata
+     id="metadata12">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1048"
+     id="namedview8"
+     showgrid="false"
+     inkscape:zoom="4.1052632"
+     inkscape:cx="142.5"
+     inkscape:cy="27.378205"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6" />
+  <style
+     id="style2">
+    .bottled {
+      color: #1e2224;
+      font-family: &quot;Poppins&quot;;
+      font-size: 72px;
+      font-weight: Bold;
+      font-style: normal;
+      letter-spacing: normal;
+      line-height: normal;
+      text-align: left;
+    }
+  </style>
+  <g
+     aria-label="Bottled."
+     id="text4"
+     style="color:#1e2224;font-style:normal;font-size:72px;line-height:normal;font-family:Poppins;text-align:left;letter-spacing:normal"
+     class="bottled">
+    <path
+       d="m 35.064,28.08 q 4.392,0.936 7.056,4.392 2.664,3.384 2.664,7.776 0,6.336 -4.464,10.08 Q 35.928,54 28.008,54 H 4.464 V 3.456 h 22.752 q 7.704,0 12.024,3.528 4.392,3.528 4.392,9.576 0,4.464 -2.376,7.416 -2.304,2.952 -6.192,4.104 z M 16.776,23.904 h 8.064 q 3.024,0 4.608,-1.296 1.656,-1.368 1.656,-3.96 0,-2.592 -1.656,-3.96 Q 27.864,13.32 24.84,13.32 h -8.064 z m 9.072,20.16 q 3.096,0 4.752,-1.368 1.728,-1.44 1.728,-4.104 0,-2.664 -1.8,-4.176 -1.728,-1.512 -4.824,-1.512 h -8.928 v 11.16 z"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Poppins;-inkscape-font-specification:'Poppins Bold'"
+       id="path18" />
+    <path
+       d="m 70.199891,54.576 q -5.904,0 -10.656,-2.52 -4.68,-2.52 -7.416,-7.2 -2.664,-4.68 -2.664,-10.944 0,-6.192 2.736,-10.872 2.736,-4.752 7.488,-7.272 4.752,-2.52 10.656,-2.52 5.904,0 10.656,2.52 4.752,2.52 7.488,7.272 2.736,4.68 2.736,10.872 0,6.192 -2.808,10.944 -2.736,4.68 -7.56,7.2 -4.752,2.52 -10.656,2.52 z m 0,-10.656 q 3.528,0 5.976,-2.592 2.52,-2.592 2.52,-7.416 0,-4.824 -2.448,-7.416 -2.376,-2.592 -5.904,-2.592 -3.6,0 -5.976,2.592 -2.376,2.52 -2.376,7.416 0,4.824 2.304,7.416 2.376,2.592 5.904,2.592 z"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Poppins;-inkscape-font-specification:'Poppins Bold'"
+       id="path20" />
+    <path
+       d="M 120.16783,43.56 V 54 h -6.264 q -6.696,0 -10.44,-3.24 -3.744001,-3.312 -3.744001,-10.728 V 24.048 h -4.896 V 13.824 h 4.896 V 4.032 h 12.312001 v 9.792 h 8.064 v 10.224 h -8.064 v 16.128 q 0,1.8 0.864,2.592 0.864,0.792 2.88,0.792 z"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Poppins;-inkscape-font-specification:'Poppins Bold'"
+       id="path22" />
+    <path
+       d="M 149.3997,43.56 V 54 h -6.264 q -6.696,0 -10.44,-3.24 -3.744,-3.312 -3.744,-10.728 V 24.048 h -4.896 V 13.824 h 4.896 V 4.032 h 12.312 v 9.792 h 8.064 v 10.224 h -8.064 v 16.128 q 0,1.8 0.864,2.592 0.864,0.792 2.88,0.792 z"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Poppins;-inkscape-font-specification:'Poppins Bold'"
+       id="path24" />
+    <path
+       d="M 168.55157,0.72 V 54 h -12.312 V 0.72 Z"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Poppins;-inkscape-font-specification:'Poppins Bold'"
+       id="path26" />
+    <path
+       d="m 215.35144,33.264 q 0,1.728 -0.216,3.6 h -27.864 q 0.288,3.744 2.376,5.76 2.16,1.944 5.256,1.944 4.608,0 6.408,-3.888 h 13.104 q -1.008,3.96 -3.672,7.128 -2.592,3.168 -6.552,4.968 -3.96,1.8 -8.856,1.8 -5.904,0 -10.512,-2.52 -4.608,-2.52 -7.2,-7.2 -2.592,-4.68 -2.592,-10.944 0,-6.264 2.52,-10.944 2.592,-4.68 7.2,-7.2 4.608,-2.52 10.584,-2.52 5.832,0 10.368,2.448 4.536,2.448 7.056,6.984 2.592,4.536 2.592,10.584 z m -12.6,-3.24 q 0,-3.168 -2.16,-5.04 -2.16,-1.872 -5.4,-1.872 -3.096,0 -5.256,1.8 -2.088,1.8 -2.592,5.112 z"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Poppins;-inkscape-font-specification:'Poppins Bold'"
+       id="path28" />
+    <path
+       d="m 219.38339,33.84 q 0,-6.192 2.304,-10.872 2.376,-4.68 6.408,-7.2 4.032,-2.52 9,-2.52 3.96,0 7.2,1.656 3.312,1.656 5.184,4.464 V 0.72 h 12.312 V 54 h -12.312 v -5.76 q -1.728,2.88 -4.968,4.608 -3.168,1.728 -7.416,1.728 -4.968,0 -9,-2.52 -4.032,-2.592 -6.408,-7.272 -2.304,-4.752 -2.304,-10.944 z m 30.096,0.072 q 0,-4.608 -2.592,-7.272 -2.52,-2.664 -6.192,-2.664 -3.672,0 -6.264,2.664 -2.52,2.592 -2.52,7.2 0,4.608 2.52,7.344 2.592,2.664 6.264,2.664 3.672,0 6.192,-2.664 2.592,-2.664 2.592,-7.272 z"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Poppins;-inkscape-font-specification:'Poppins Bold'"
+       id="path30" />
+    <path
+       d="m 276.47931,54.576 q -3.24,0 -5.328,-1.872 -2.016,-1.944 -2.016,-4.752 0,-2.88 2.016,-4.824 2.088,-1.944 5.328,-1.944 3.168,0 5.184,1.944 2.088,1.944 2.088,4.824 0,2.808 -2.088,4.752 -2.016,1.872 -5.184,1.872 z"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Poppins;-inkscape-font-specification:'Poppins Bold'"
+       id="path32" />
+  </g>
+</svg>
