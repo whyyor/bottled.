@@ -1,12 +1,10 @@
-import React, { useContext } from "react";
+import React from "react";
 import Image from "next/image";
 import NavbarButton from "@/components/NavbarButton";
 import styles from "../styles/Header.module.css";
-import { UserContext } from "@/contexts/userContext";
 import Menu from "./Menu";
 
 const Header = () => {
-  const { menu } = useContext(UserContext);
   return (
     <div>
       <div className={styles.header__container}>
@@ -20,7 +18,7 @@ const Header = () => {
           />
           <NavbarButton classname={styles.navbarbutton} />
         </div>
-        {menu ? <Menu /> : null}
+        <Menu/>
         <div className={styles.header__text_container}>
           <h1>
             Superior Quality

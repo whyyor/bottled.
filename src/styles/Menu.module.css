@@ -14,7 +14,9 @@
 }
 
 .menu__container.hidden {
-  animation: zoom-out 0.5s ease forwards;
+  width: 0;
+  height: 0;
+  animation: zoom-out 0.2s ease forwards;
 }
 
 @keyframes zoom-in {
@@ -29,9 +31,13 @@
 @keyframes zoom-out {
   from {
     transform: scale(1);
+    width: 100vw;
+    height: 100vw;
   }
   to {
     transform: scale(0);
+    width: 0;
+    height: 0;
   }
 }
 
