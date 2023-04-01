@@ -1,10 +1,30 @@
 .label {
   display: flex;
+  position: absolute;
+  z-index: 5;
+  align-self: flex-end;
+  top: 0;
+  right: 2vw;
   flex-direction: column;
   width: 40px;
   cursor: pointer;
   margin-top: 25px;
   transition: 0.3s;
+}
+
+.logo {
+  position: absolute;
+  filter: invert(1);
+  z-index: 2;
+  cursor: pointer;
+  top: 0;
+  transform: translateY(-15px);
+  left: 2vw;
+  transition: all 0.3s;
+}
+
+.logo:hover {
+  transform: translateY(-20px);
 }
 
 .label span {
@@ -49,6 +69,15 @@
   transform-origin: bottom;
   width: 50%;
   transform: translate(18px, -11px) rotateZ(45deg);
+}
+
+@media only screen and (max-width: 650px) {
+  .label {
+    right: 5vw;
+  }
+  .logo {
+    left: 5vw;
+  }
 }
 
 @media only screen and (max-width: 450px) {
