@@ -11,7 +11,7 @@
   border-bottom-left-radius: 50px;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
   opacity: 0;
-  animation: slideIn 0.5s ease forwards;
+  animation: slideIn 1s ease forwards;
 }
 
 @keyframes slideIn {
@@ -31,7 +31,7 @@
   color: darkgrey;
   filter: brightness(35%);
   font-size: xx-large;
-  position: absolute;
+  position: fixed;
   left: 46%;
   top: 15%;
 }
@@ -103,42 +103,95 @@
   justify-content: space-between;
 }
 
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 1800px) {
+  .arrow__img {
+    width: 1300px;
+    height: 950px;
+  }
+  .text__container_small {
+    height: 50%;
+  }
+}
+
+@media only screen and (max-width: 1650px) {
+  .header__heading{
+    font-size: x-large;
+    margin-top: 30px;
+  }
   .bottle__img {
-    right: 10vw;
+    width: 200px;
+    height: 450px;
   }
-  .header__text_container {
-    left: 25%;
+  .arrow__img {
+    width: 1000px;
+    height: 950px;
+  }
+  .bottleLogo__img{
+    width: 120px;
+    height: 200px;
+
+  }
+  .text__container{
+    width: 55vw;
+    margin-left: 30px;
+  }
+  .text__container_small {
+    height: 40%;
+    font-size: x-large;
   }
 }
 
-@media only screen and (max-width: 1000px) {
-  .bottle__img {
-    right: 10vw;
-  }
-  .header__text_container {
-    left: 10%;
-  }
-}
 
-@media only screen and (max-width: 800px) {
-  .bottle__img {
-    display: none;
+@media only screen and (max-width: 1350px) {
+  .arrow__img{
+    width: 800px;
+    height: 1100px;
   }
-}
-
-@media only screen and (max-width: 600px) {
-  .header__text_container {
-    font-size: medium;
-  }
-}
-
-@media only screen and (max-width: 450px) {
-  .navbar__container {
-    padding: 0 5vw;
-  }
-  .logo {
+  .bottleLogo__img{
     width: 100px;
-    height: 110px;
+    height: 190px;
+
+  }
+  .bottle__img{
+    width: 170px;
+    height: 400px;
+  }
+  .text__container{
+    width: 60vw;
+    margin-left: -8px;
+  }
+  .text__container_small{
+    height: 35%;
+    font-size: x-large;
   }
 }
+
+@media only screen and (max-width: 1100px) {
+  .arrow__img{
+    width: 1800px;
+    height: 500px;
+  }
+
+  .text__container{
+    width: 76vw;
+    margin-left: -10vw;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .arrow__img{
+    width: 800px;
+    height: 500px;
+  }
+
+  .text__container{
+    width: 76vw;
+    margin-left: -9vw;
+  }
+  .text__container_small{
+    font-size: large;
+  }
+
+}
+
+/* After this we gonna implement the animation */
