@@ -7,20 +7,51 @@ const Header = () => {
   return (
     <div>
       <div className={styles.header__container}>
-        <Image
-          src="/bottle.png"
-          width={300}
-          height={650}
-          alt="bottle"
-          className={styles.bottle__img}
-        />
+        <h2 className={styles.header__heading}>Introducing</h2>
+        <div className={styles.text__container}>
+          <div className={styles.text__container_small}>
+            <p>Personalized Branding</p>
+            <p style={{paddingLeft:'35px'}}>Unmatched Quality</p>
+          </div>
+          <div className={styles.text__container_small}>
+            <p>Better Margins</p>
+            <p>Alkaline water</p>
+          </div>
+        </div>
+        <div className={styles.bottle__img_container}>
+          <Image
+            src="/bottle.png"
+            width={250}
+            height={550}
+            alt="bottle"
+            className={styles.bottle__img}
+          />
+
+          <Image
+            src="/BottleOnBottle.svg"
+            width={150}
+            height={250}
+            alt="bottle"
+            className={styles.bottleLogo__img}
+          />
+          <Image
+            src="/Arrow.svg"
+            width={1950}
+            height={950}
+            alt="arrows"
+            className={styles.arrow__img}
+          />
+        </div>
+
         <Menu />
-        <div className={styles.header__text_container}>
+        {
+          /*<div className={styles.header__text_container}>
           <h1>
             Superior Quality
             <br /> Personalized Bottles
           </h1>
-        </div>
+        </div>*/
+        }
       </div>
     </div>
   );

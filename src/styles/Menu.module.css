@@ -50,6 +50,7 @@
 
 .menu__container > .menu__links_container > a {
   color: white;
+  font-family: "Poppins";
   text-decoration: none;
   padding: 10px 17px;
   border-radius: 20px;

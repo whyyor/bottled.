@@ -1,4 +1,3 @@
-import Features from "@/components/Features";
 import Header from "@/components/Header";
 import Menu from "@/components/Menu";
 import NavbarButton from "@/components/NavbarButton";
@@ -9,7 +8,7 @@ export default function Home() {
       <NavbarButton />
       <Menu />
       <Header />
-      <Features />
+      {/* <Features /> */}
     </div>
   );
 }
