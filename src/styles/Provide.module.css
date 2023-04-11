@@ -1,0 +1,62 @@
+.provide__container {
+  display: flex;
+  height: 60vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins";
+  font-weight: 400;
+  animation: slideIn 0.5s ease forwards;
+  animation-delay: 0.5s;
+  opacity: 0;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(-100%);
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.heading {
+  color: black;
+  padding: 2vh 0 4vh 0;
+}
+
+.solution__container {
+  background: linear-gradient(
+    to bottom right,
+    rgba(0, 0, 0, 0.9),
+    rgba(1, 0, 1, 0.8)
+  );
+  cursor: pointer;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.9);
+  color: white;
+  width: 40%;
+  padding: 7% 8%;
+  transition: all .5s;
+  border-radius: 50px;
+}
+
+.solution__container:hover {
+    transform: translateY(-5px);
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.9);
+}
+
+
+.solution__container:active {
+    transform: translateY(5px);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.9);
+}
+
+.solution__container > p {
+  font-size: large;
+  text-align: center;
+  line-height: 35px;
+}
