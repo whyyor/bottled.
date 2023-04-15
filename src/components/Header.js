@@ -19,7 +19,7 @@ const Header = () => {
         </div>
         <div className={styles.bottle__img_container}>
           <Image
-            src="/bottle.png"
+            src="/bottle.webp"
             width={250}
             height={550}
             alt="bottle"

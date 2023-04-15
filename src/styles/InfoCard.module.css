@@ -1,0 +1,89 @@
+.infoCardContainer {
+  display: flex;
+  height: max-content;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 5vh;
+  padding-bottom: 10vh;
+}
+
+.cardContainer {
+  display: flex;
+  justify-self: center;
+  justify-content: space-between;
+  align-self: center;
+  width: 60%;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  text-align: start;
+  align-items: start;
+  justify-content: center;
+  gap: 2vh;
+}
+
+.cardImg {
+  margin-top: 5vh;
+}
+
+.headingText {
+  font-style: italic;
+  color: gray;
+  filter: brightness(-10);
+}
+
+.textContainer > p {
+  color: black;
+}
+
+@media only screen and (max-width: 1100px) {
+  .cardContainer {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .cardContainer {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .infoCardContainer > h1 {
+    margin-top: 5vh;
+  }
+
+  .cardContainer {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: -7vh;
+    padding-bottom: 5vh;
+  }
+
+  .headingText {
+    font-style: italic;
+    font-size: x-large;
+    color: gray;
+    filter: brightness(-10);
+  }
+
+  .textContainer {
+    order: 1;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+  }
+
+  .textContainer > p {
+    color: black;
+    font-size: medium;
+  }
+}
+
