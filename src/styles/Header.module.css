@@ -81,6 +81,10 @@
   transform: scale(0.9);
 }
 
+.arrow__img{
+  overflow: hidden;
+}
+
 .text__container {
   font-family: "kalam";
   filter: brightness(80%);

@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import styles from "../styles/Header.module.css";
-import Menu from "./Menu";
 
 const Header = () => {
   return (
@@ -11,7 +10,7 @@ const Header = () => {
         <div className={styles.text__container}>
           <div className={styles.text__container_small}>
             <p>Personalized Branding</p>
-            <p style={{paddingLeft:'35px'}}>Unmatched Quality</p>
+            <p style={{ paddingLeft: "35px" }}>Unmatched Quality</p>
           </div>
           <div className={styles.text__container_small}>
             <p>Better Margins</p>
@@ -42,16 +41,6 @@ const Header = () => {
             className={styles.arrow__img}
           />
         </div>
-
-        <Menu />
-        {
-          /*<div className={styles.header__text_container}>
-          <h1>
-            Superior Quality
-            <br /> Personalized Bottles
-          </h1>
-        </div>*/
-        }
       </div>
     </div>
   );
