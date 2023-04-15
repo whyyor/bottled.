@@ -10,8 +10,6 @@ export default function Home() {
       <NavbarButton />
       <Menu />
       <Header />
-      {/* <Provide /> */}
-      {/* <Features /> */}
     </div>
   );
 }
