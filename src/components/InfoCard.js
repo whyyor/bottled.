@@ -9,7 +9,6 @@ const Card = ({
   toggle,
   width,
   height,
-  mt,
 }) => {
   const image = (
     <>
@@ -56,7 +55,6 @@ const InfoCard = () => {
         toggle={true}
         width="250"
         height="250"
-        mt="25"
       />
     </div>
   );
