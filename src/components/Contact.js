@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div className={styles.contactContainer}>
       <h1>Get in touch!</h1>
-      <form action="#" method="post">
+      <form action="https://formsubmit.co/cc1223e835b610e15210beb94222e623" method="POST">
         <div className={styles.nameEmailContainer}>
           <input
             type="text"
