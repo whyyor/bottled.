@@ -76,3 +76,10 @@
 .socialImg:active {
   transform: translateY(2.5px);
 }
+
+@media only screen and (max-width: 450px) {
+  .cardsContainer {
+    gap: 7vh;
+    margin-top: -5vh;
+  }
+}

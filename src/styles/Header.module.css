@@ -26,14 +26,15 @@
 }
 
 .header__heading {
+  display: flex;
+  position: fixed;
+  align-self: center;
   font-family: "Poppins";
+  margin-top: 5%;
   font-style: italic;
   color: darkgrey;
   filter: brightness(35%);
   font-size: xx-large;
-  position: fixed;
-  left: 46%;
-  top: 15%;
 }
 
 .bottle__container {
@@ -81,7 +82,7 @@
   transform: scale(0.9);
 }
 
-.arrow__img{
+.arrow__img {
   overflow: hidden;
 }
 
@@ -103,8 +104,21 @@
 .text__container_small {
   display: flex;
   flex-direction: column;
+  align-items: flex-end;
   height: 60%;
   justify-content: space-between;
+}
+
+@keyframes updown {
+  0%,
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(5px);
+    opacity: 0;
+  }
 }
 
 @media only screen and (max-width: 1800px) {
@@ -118,9 +132,9 @@
 }
 
 @media only screen and (max-width: 1650px) {
-  .header__heading{
+  .header__heading {
     font-size: x-large;
-    margin-top: 30px;
+    margin-top: 8%;
   }
   .bottle__img {
     width: 200px;
@@ -130,12 +144,11 @@
     width: 1000px;
     height: 950px;
   }
-  .bottleLogo__img{
+  .bottleLogo__img {
     width: 120px;
     height: 200px;
-
   }
-  .text__container{
+  .text__container {
     width: 55vw;
     margin-left: 30px;
   }
@@ -145,57 +158,131 @@
   }
 }
 
-
 @media only screen and (max-width: 1350px) {
-  .arrow__img{
+  .header__heading {
+    margin-top: 10%;
+  }
+  .arrow__img {
     width: 800px;
     height: 1100px;
   }
-  .bottleLogo__img{
+  .bottleLogo__img {
     width: 100px;
     height: 190px;
-
   }
-  .bottle__img{
+  .bottle__img {
     width: 170px;
     height: 400px;
   }
-  .text__container{
+  .text__container {
     width: 60vw;
     margin-left: -8px;
   }
-  .text__container_small{
+  .text__container_small {
     height: 35%;
     font-size: x-large;
   }
 }
 
 @media only screen and (max-width: 1100px) {
-  .arrow__img{
+  .header__heading {
+    margin-top: 15%;
+  }
+  .arrow__img {
     width: 1800px;
     height: 500px;
   }
 
-  .text__container{
+  .text__container {
     width: 76vw;
     margin-left: -10vw;
   }
 }
 
 @media only screen and (max-width: 950px) {
-  .arrow__img{
+  .header__heading {
+    margin-top: 15%;
+  }
+  .arrow__img {
     width: 800px;
     height: 500px;
   }
 
-  .text__container{
+  .text__container {
     width: 76vw;
     margin-left: -9vw;
   }
-  .text__container_small{
+  .text__container_small {
     font-size: large;
   }
-
 }
 
 /* After this we gonna implement the animation */
+
+@media only screen and (max-width: 800px) {
+  .header__heading {
+    margin-top: 18%;
+  }
+  .arrow__img {
+    display: none;
+  }
+
+  .text__container_small > p {
+    opacity: 1;
+    animation: updown 2.5s ease-in-out infinite;
+  }
+
+  .text__container_small > p:nth-child(2) {
+    animation-delay: 1s;
+    opacity: 1;
+  }
+
+  .text__container > .text__container_small:nth-child(2) > p {
+    animation-delay: 1.5s;
+  }
+
+  .text__container > .text__container_small:nth-child(2) > p:nth-child(2) {
+    animation-delay: 2.5s;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .header__heading {
+    margin-top: 25%;
+  }
+  .text__container {
+    width: 89%;
+  }
+  .text__container_small {
+    font-size: medium;
+  }
+
+  .text__container {
+    margin-left: -16vw;
+  }
+  .bottle__img {
+    rotate: 4deg;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .header__heading {
+    margin-top: 35%;
+  }
+  .text__container_small {
+    font-size: small;
+    align-items: flex-start;
+  }
+
+  .bottle__img {
+    transform: translateX(17px);
+  }
+
+  .bottleLogo__img {
+    rotate: 4deg;
+    transform: translateX(17px);
+  }
+  .text__container {
+    margin-left: -12vw;
+  }
+}

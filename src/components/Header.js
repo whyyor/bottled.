@@ -10,7 +10,7 @@ const Header = () => {
         <div className={styles.text__container}>
           <div className={styles.text__container_small}>
             <p>Personalized Branding</p>
-            <p style={{ paddingLeft: "35px" }}>Unmatched Quality</p>
+            <p >Unmatched Quality</p>
           </div>
           <div className={styles.text__container_small}>
             <p>Better Margins</p>
