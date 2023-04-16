@@ -5,7 +5,10 @@ const Contact = () => {
   return (
     <div className={styles.contactContainer}>
       <h1>Get in touch!</h1>
-      <form action="https://formsubmit.co/cc1223e835b610e15210beb94222e623" method="POST">
+      <form
+        action="https://formsubmit.co/cc1223e835b610e15210beb94222e623"
+        method="POST"
+      >
         <div className={styles.nameEmailContainer}>
           <input
             type="text"
@@ -35,6 +38,10 @@ const Contact = () => {
           Submit
         </button>
       </form>
+
+      <div className={styles.footerContainer}>
+        <p>Made with love &hearts; at bottled.</p>
+      </div>
     </div>
   );
 };
