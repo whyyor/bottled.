@@ -70,6 +70,9 @@
 }
 
 @media only screen and (max-width: 450px) {
+  .menu__container {
+    animation: zoom-in 0.25s ease forwards;
+  }
   .menu__container.hidden {
     animation: zoom-out 0.2s ease forwards;
   }
