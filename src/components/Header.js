@@ -6,11 +6,10 @@ const Header = () => {
   return (
     <div>
       <div className={styles.header__container}>
-        <h2 className={styles.header__heading}>Introducing</h2>
         <div className={styles.text__container}>
           <div className={styles.text__container_small}>
             <p>Personalized Branding</p>
-            <p >Unmatched Quality</p>
+            <p>Unmatched Quality</p>
           </div>
           <div className={styles.text__container_small}>
             <p>Better Margins</p>
@@ -18,6 +17,7 @@ const Header = () => {
           </div>
         </div>
         <div className={styles.bottle__img_container}>
+          <h2 className={styles.img__heading}>Introducing</h2>
           <Image
             src="/bottle.webp"
             width={250}
