@@ -49,7 +49,7 @@ const InfoCard = () => {
       />
 
       <Card
-        imageSrc="/Alkaline.png"
+        imageSrc="/Alkaline.webp"
         paraContent="At our company, we take great pride in providing our customers with high-quality alkaline water in our personalized bottles. Alkaline water has been shown by several studies to have a variety of health benefits, such as helping to neutralize acid in the body and improving hydration. Our alkaline water is carefully sourced and processed to ensure that it meets the highest standards of quality and purity, and our bottles are designed to preserve its healthful properties. We believe that by providing our customers with access to this high-quality water, we can help them to lead healthier and happier lives."
         headingContent="Alkaline water"
         toggle={true}

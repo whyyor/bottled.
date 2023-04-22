@@ -44,6 +44,10 @@
   color: transparent;
 }
 
+.input:focus {
+  border-bottom: 2px solid white;
+}
+
 .submitButton {
   color: black;
   background-color: white;

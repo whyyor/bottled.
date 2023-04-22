@@ -28,6 +28,8 @@
 .header__heading {
   display: flex;
   position: fixed;
+
+  transform: translateX(16px);
   align-self: center;
   font-family: "Poppins";
   margin-top: 5%;

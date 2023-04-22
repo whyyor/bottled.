@@ -23,6 +23,8 @@
 @keyframes zoom-in {
   from {
     transform: scale(0);
+    width: 0;
+    height: 0;
   }
   to {
     transform: scale(1);
@@ -47,6 +49,7 @@
   flex-direction: column;
   height: 40%;
   justify-content: space-around;
+  text-align: center;
 }
 
 .menu__container > .menu__links_container > a {

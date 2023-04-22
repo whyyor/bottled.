@@ -56,7 +56,7 @@ const Team = () => {
       <div className={styles.cardsContainer}>
         <Card
           name="Safal Malhotra"
-          imgSrc="/edlong.jpg"
+          imgSrc="/profile.webp"
           designation="COO"
           twitterUrl="twitter.com/elon"
           linkdinUrl="twitter.com/elon"
@@ -64,7 +64,7 @@ const Team = () => {
 
         <Card
           name="Kunal Sharma"
-          imgSrc="/edlong.jpg"
+          imgSrc="/profile.webp"
           designation="CEO"
           twitterUrl="twitter.com/elon"
           linkdinUrl="twitter.com/elon"
@@ -72,7 +72,7 @@ const Team = () => {
 
         <Card
           name="Akshat Dhawan"
-          imgSrc="/edlong.jpg"
+          imgSrc="/profile.webp"
           designation="CD"
           twitterUrl="twitter.com/elon"
           linkdinUrl="twitter.com/elon"
